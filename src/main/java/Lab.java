@@ -53,14 +53,16 @@ public class Lab {
     /**
      * Get a particular index of a list.
      * Lists, like arrays, are zero-indexed, so they start counting at zero. For instance,
-     *      index 0 of {0,2,4,6} is 0.
-     *      index 1 of {0,2,4,6} is 2.
+     *      index 0 of {1,3,5,7,9} is the value 1.
+     *      index 1 of {1,3,5,7,9} is the value 3.
+     *      index 2 of {1,3,5,7,9} is the value 5.
+     *      index 3 of {1,3,5,7,9} is the value 7.
      * Index is the same as saying the position, number, etc of a value.
      * Let's get the element from a list at a certain index.
      *
      * @param list a List<Integer> object that we would like to examine.
      * @param index represents the index of the element we would like to retrieve.
-     * @return the int at the location in 'list' represented by 'index'.
+     * @return the int value at the location in 'list' represented by 'index'.
      */
     public int get(List<Integer> list, int index){
         return 0;
